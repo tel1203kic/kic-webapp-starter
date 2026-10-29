@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KIC Message Board</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <p class="eyebrow">KIC Web Application Starter</p>
+        <h1>Message Board</h1>
+        <p class="intro">A small example of a frontend getting data from a backend.</p>
+      </header>
+
+      <section aria-labelledby="messages-heading">
+        <div class="section-heading">
+          <h2 id="messages-heading">Latest messages</h2>
+          <span id="message-count" class="message-count" aria-live="polite"></span>
+        </div>
+        <p id="status" class="status" role="status">Loading messages...</p>
+        <ul id="messages" class="messages" aria-label="Messages"></ul>
+      </section>
+    </main>
+  </body>
+</html>
