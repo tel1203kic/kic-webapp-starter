@@ -1,0 +1,9 @@
+{
+  "name": "kic-web-application-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beginner-friendly web application starter for a KIC lecture",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,120 @@
+:root {
+  color-scheme: light;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  color: #202b35;
+  background: #f3f5f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(135deg, rgba(223, 236, 229, 0.8), transparent 55%),
+    #f3f5f2;
+}
+
+.page {
+  width: min(100% - 32px, 720px);
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.page-header {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ccd5d0;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #26735e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.intro {
+  margin-bottom: 0;
+  color: #53615c;
+  line-height: 1.6;
+}
+
+section {
+  padding-top: 28px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+}
+
+.message-count {
+  color: #62706a;
+  font-size: 0.9rem;
+}
+
+.status {
+  color: #53615c;
+}
+
+.messages {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.message {
+  padding: 18px 20px;
+  border: 1px solid #d5ddd8;
+  border-left: 4px solid #26735e;
+  background: #fff;
+}
+
+.message-author {
+  margin-bottom: 6px;
+  color: #26735e;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.message-text {
+  margin-bottom: 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 40px 0;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+}
